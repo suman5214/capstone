@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2EBB59A4DFB863CC2705554C /* Pods_ChemicalNames.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B150E882109216376655CB4 /* Pods_ChemicalNames.framework */; };
+		842CD2BE201E9F4800CD367C /* ChemicalNamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842CD2BD201E9F4800CD367C /* ChemicalNamesViewController.swift */; };
+		842CD2C0201EA2B200CD367C /* ChemicalDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842CD2BF201EA2B200CD367C /* ChemicalDetailViewController.swift */; };
+		842CD2C2201EB3C600CD367C /* DetailBasicVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842CD2C1201EB3C600CD367C /* DetailBasicVC.swift */; };
+		842CD2C4201EB3D800CD367C /* DetailHealthEffectVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842CD2C3201EB3D800CD367C /* DetailHealthEffectVC.swift */; };
+		842CD2C6201EB3E800CD367C /* DetailPPEVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842CD2C5201EB3E800CD367C /* DetailPPEVC.swift */; };
+		842CD2C8201EBE0200CD367C /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842CD2C7201EBE0100CD367C /* UIViewExtension.swift */; };
+		842CD2CA201ED5D600CD367C /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842CD2C9201ED5D600CD367C /* UIImageExtension.swift */; };
+		842CD2CC201EE66200CD367C /* HealthTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842CD2CB201EE66200CD367C /* HealthTableViewCell.swift */; };
+		844C222E201E933D0023B6FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844C222D201E933D0023B6FF /* AppDelegate.swift */; };
+		844C2233201E933D0023B6FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844C2231201E933D0023B6FF /* Main.storyboard */; };
+		844C2235201E933D0023B6FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844C2234201E933D0023B6FF /* Assets.xcassets */; };
+		844C2238201E933D0023B6FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844C2236201E933D0023B6FF /* LaunchScreen.storyboard */; };
+		84EBE0D1201E95C800610CD2 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EBE0D0201E95C800610CD2 /* DataProvider.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		212721858A45B19FA8F319CC /* Pods-ChemicalNames.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChemicalNames.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChemicalNames/Pods-ChemicalNames.debug.xcconfig"; sourceTree = "<group>"; };
+		3B150E882109216376655CB4 /* Pods_ChemicalNames.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChemicalNames.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		842CD2BD201E9F4800CD367C /* ChemicalNamesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemicalNamesViewController.swift; sourceTree = "<group>"; };
+		842CD2BF201EA2B200CD367C /* ChemicalDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemicalDetailViewController.swift; sourceTree = "<group>"; };
+		842CD2C1201EB3C600CD367C /* DetailBasicVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailBasicVC.swift; sourceTree = "<group>"; };
+		842CD2C3201EB3D800CD367C /* DetailHealthEffectVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHealthEffectVC.swift; sourceTree = "<group>"; };
+		842CD2C5201EB3E800CD367C /* DetailPPEVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPPEVC.swift; sourceTree = "<group>"; };
+		842CD2C7201EBE0100CD367C /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		842CD2C9201ED5D600CD367C /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		842CD2CB201EE66200CD367C /* HealthTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthTableViewCell.swift; sourceTree = "<group>"; };
+		844C222A201E933D0023B6FF /* ChemicalNames.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChemicalNames.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		844C222D201E933D0023B6FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		844C2232201E933D0023B6FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		844C2234201E933D0023B6FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		844C2237201E933D0023B6FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		844C2239201E933D0023B6FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84EBE0D0201E95C800610CD2 /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
+		B1A3D10D3CC058D00436BE34 /* Pods-ChemicalNames.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChemicalNames.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChemicalNames/Pods-ChemicalNames.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		844C2227201E933D0023B6FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EBB59A4DFB863CC2705554C /* Pods_ChemicalNames.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		493AD53D3655C630FAC8B2A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				212721858A45B19FA8F319CC /* Pods-ChemicalNames.debug.xcconfig */,
+				B1A3D10D3CC058D00436BE34 /* Pods-ChemicalNames.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		844C2221201E933D0023B6FF = {
+			isa = PBXGroup;
+			children = (
+				844C222C201E933D0023B6FF /* ChemicalNames */,
+				844C222B201E933D0023B6FF /* Products */,
+				493AD53D3655C630FAC8B2A4 /* Pods */,
+				F3396922AB410B80F8487FB7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		844C222B201E933D0023B6FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				844C222A201E933D0023B6FF /* ChemicalNames.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		844C222C201E933D0023B6FF /* ChemicalNames */ = {
+			isa = PBXGroup;
+			children = (
+				844C222D201E933D0023B6FF /* AppDelegate.swift */,
+				842CD2BD201E9F4800CD367C /* ChemicalNamesViewController.swift */,
+				842CD2BF201EA2B200CD367C /* ChemicalDetailViewController.swift */,
+				842CD2C1201EB3C600CD367C /* DetailBasicVC.swift */,
+				842CD2C3201EB3D800CD367C /* DetailHealthEffectVC.swift */,
+				842CD2CB201EE66200CD367C /* HealthTableViewCell.swift */,
+				842CD2C5201EB3E800CD367C /* DetailPPEVC.swift */,
+				84EBE0D0201E95C800610CD2 /* DataProvider.swift */,
+				842CD2C9201ED5D600CD367C /* UIImageExtension.swift */,
+				842CD2C7201EBE0100CD367C /* UIViewExtension.swift */,
+				844C2231201E933D0023B6FF /* Main.storyboard */,
+				844C2234201E933D0023B6FF /* Assets.xcassets */,
+				844C2236201E933D0023B6FF /* LaunchScreen.storyboard */,
+				844C2239201E933D0023B6FF /* Info.plist */,
+			);
+			path = ChemicalNames;
+			sourceTree = "<group>";
+		};
+		F3396922AB410B80F8487FB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B150E882109216376655CB4 /* Pods_ChemicalNames.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		844C2229201E933D0023B6FF /* ChemicalNames */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 844C223C201E933D0023B6FF /* Build configuration list for PBXNativeTarget "ChemicalNames" */;
+			buildPhases = (
+				5F31C6F91E729C695802DE72 /* [CP] Check Pods Manifest.lock */,
+				844C2226201E933D0023B6FF /* Sources */,
+				844C2227201E933D0023B6FF /* Frameworks */,
+				844C2228201E933D0023B6FF /* Resources */,
+				D248C4603DB264F18C5C5095 /* [CP] Embed Pods Frameworks */,
+				F8C64B533904CD3FDCDDB050 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChemicalNames;
+			productName = ChemicalNames;
+			productReference = 844C222A201E933D0023B6FF /* ChemicalNames.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		844C2222201E933D0023B6FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = admin;
+				TargetAttributes = {
+					844C2229201E933D0023B6FF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 844C2225201E933D0023B6FF /* Build configuration list for PBXProject "ChemicalNames" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 844C2221201E933D0023B6FF;
+			productRefGroup = 844C222B201E933D0023B6FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				844C2229201E933D0023B6FF /* ChemicalNames */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		844C2228201E933D0023B6FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844C2238201E933D0023B6FF /* LaunchScreen.storyboard in Resources */,
+				844C2235201E933D0023B6FF /* Assets.xcassets in Resources */,
+				844C2233201E933D0023B6FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F31C6F91E729C695802DE72 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D248C4603DB264F18C5C5095 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChemicalNames/Pods-ChemicalNames-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8C64B533904CD3FDCDDB050 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChemicalNames/Pods-ChemicalNames-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		844C2226201E933D0023B6FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842CD2C4201EB3D800CD367C /* DetailHealthEffectVC.swift in Sources */,
+				842CD2CC201EE66200CD367C /* HealthTableViewCell.swift in Sources */,
+				84EBE0D1201E95C800610CD2 /* DataProvider.swift in Sources */,
+				842CD2C0201EA2B200CD367C /* ChemicalDetailViewController.swift in Sources */,
+				842CD2C2201EB3C600CD367C /* DetailBasicVC.swift in Sources */,
+				844C222E201E933D0023B6FF /* AppDelegate.swift in Sources */,
+				842CD2CA201ED5D600CD367C /* UIImageExtension.swift in Sources */,
+				842CD2C6201EB3E800CD367C /* DetailPPEVC.swift in Sources */,
+				842CD2C8201EBE0200CD367C /* UIViewExtension.swift in Sources */,
+				842CD2BE201E9F4800CD367C /* ChemicalNamesViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		844C2231201E933D0023B6FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				844C2232201E933D0023B6FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		844C2236201E933D0023B6FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				844C2237201E933D0023B6FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		844C223A201E933D0023B6FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		844C223B201E933D0023B6FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		844C223D201E933D0023B6FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 212721858A45B19FA8F319CC /* Pods-ChemicalNames.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 96WLE8T984;
+				INFOPLIST_FILE = ChemicalNames/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.ChemicalNames;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		844C223E201E933D0023B6FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1A3D10D3CC058D00436BE34 /* Pods-ChemicalNames.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 96WLE8T984;
+				INFOPLIST_FILE = ChemicalNames/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.ChemicalNames;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		844C2225201E933D0023B6FF /* Build configuration list for PBXProject "ChemicalNames" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844C223A201E933D0023B6FF /* Debug */,
+				844C223B201E933D0023B6FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		844C223C201E933D0023B6FF /* Build configuration list for PBXNativeTarget "ChemicalNames" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844C223D201E933D0023B6FF /* Debug */,
+				844C223E201E933D0023B6FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 844C2222201E933D0023B6FF /* Project object */;
+}

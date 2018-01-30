@@ -1,0 +1,15 @@
+PODS:
+  - FloatRatingView (2.0)
+  - iCarousel (1.8.3)
+
+DEPENDENCIES:
+  - FloatRatingView (~> 2.0.0)
+  - iCarousel
+
+SPEC CHECKSUMS:
+  FloatRatingView: 857ab8f10040d06a42fc979f486c8f9fecd2f2e5
+  iCarousel: d782f635afac190c49bb8ee455882284cff8b85f
+
+PODFILE CHECKSUM: 971770e5463483c0a0d05a70c4396a93fec3ba9d
+
+COCOAPODS: 1.2.1
