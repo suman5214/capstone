@@ -55,6 +55,15 @@ class DetailBasicVC: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    @IBAction func detailWHMIS(_ sender: UITapGestureRecognizer) {
+        
+        let alertController = UIAlertController(title: "title", message: "Some WHMIS Information Here", preferredStyle: UIAlertControllerStyle.alert)
+        
+        alertController.addAction(UIAlertAction(title: "ok", style: UIAlertActionStyle.default,handler: nil))
+        
+        self.present(alertController, animated: true, completion: nil)
+        
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

@@ -24,9 +24,9 @@ class HealthTableViewCell: UITableViewCell {
         nameLabel.text = healthEffect.hazard.name
         var rating: Float = 1
         if healthEffect.riskLevel.level == "Severe" {
-            rating = 5
-        } else if  healthEffect.riskLevel.level == "Moderate" {
             rating = 3
+        } else if  healthEffect.riskLevel.level == "Moderate" {
+            rating = 2
         } else if  healthEffect.riskLevel.level == "Mild" {
             rating = 1
         }

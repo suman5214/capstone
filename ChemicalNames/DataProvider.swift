@@ -63,14 +63,14 @@ class DataProvider {
 
         // Hazard
         
-        hazardList.append(Hazard(id: 1, name: "Eye Irritation", description: "May cause redness and tearing", term: "Short Term", image: "hazard_1"))
-        hazardList.append(Hazard(id: 2, name: "Skin Irritation", description: "May cause skin rash and possible burns", term: "Short Term", image: "hazard_2"))
-        hazardList.append(Hazard(id: 3, name: "Ingestion", description: "May cause severe 'burn' damage to the digestive system", term: "Short Term", image: "hazard_3"))
-        hazardList.append(Hazard(id: 4, name: "Inhalation", description: "May cause gastrointestinal irritation, nausea, vomiting, diarrhea and headache", term: "Short Term", image: "hazard_4"))
-        hazardList.append(Hazard(id: 5, name: "Carcinogenic Effect", description: "May lead to cancer", term: "Long Term", image: "hazard_1"))
-        hazardList.append(Hazard(id: 6, name: "Mutagenic Effect", description: "May result in genetic change", term: "Long Term", image: "hazard_2"))
-        hazardList.append(Hazard(id: 7, name: "Teratogenic Effect", description: "May disturb the development of the embryo or fetus", term: "Long Term", image: "hazard_3"))
-        hazardList.append(Hazard(id: 8, name: "Reproductive Effect", description: "Adverse effects on sexual function and fertility in adult males and females, as well as developmental toxicity in the offspring", term: "Long Term", image: "hazard_4"))
+        hazardList.append(Hazard(id: 1, name: "Eye Irritation", description: "May cause redness and tearing", term: "Short Term", image: "eye irritation"))
+        hazardList.append(Hazard(id: 2, name: "Skin Irritation", description: "May cause skin rash and possible burns", term: "Short Term", image: "skin irritation"))
+        hazardList.append(Hazard(id: 3, name: "Ingestion", description: "May cause severe 'burn' damage to the digestive system", term: "Short Term", image: "ingestion"))
+        hazardList.append(Hazard(id: 4, name: "Inhalation", description: "May cause gastrointestinal irritation, nausea, vomiting, diarrhea and headache", term: "Short Term", image: "inhalation"))
+        hazardList.append(Hazard(id: 5, name: "Carcinogenic Effect", description: "May lead to cancer", term: "Long Term", image: "carcinogenic effect"))
+        hazardList.append(Hazard(id: 6, name: "Mutagenic Effect", description: "May result in genetic change", term: "Long Term", image: "Mutagenic Effect"))
+        hazardList.append(Hazard(id: 7, name: "Teratogenic Effect", description: "May disturb the development of the embryo or fetus", term: "Long Term", image: "teratogenic effect"))
+        hazardList.append(Hazard(id: 8, name: "Reproductive Effect", description: "Adverse effects on sexual function and fertility in adult males and females, as well as developmental toxicity in the offspring", term: "Long Term", image: "reproduction effect"))
 
         // Risk Level
         riskLevelList.append(RiskLevel(id: 1, hazard: "Eye Irritation", level: "Severe"))
@@ -135,7 +135,8 @@ class DataProvider {
         whmisList.append(WHMIS(id: 8, description: "Skin or eyes irritation, Skin sensitization", image: "whmis_8"))
         whmisList.append(WHMIS(id: 9, description: "Aquatic toxicity", image: "whmis_9"))
         whmisList.append(WHMIS(id: 10, description: "Biohazardous infectious materials", image: "whmis_10"))
-
+        
+        chemicalNames.sort{$0.name < $1.name}
     }
     
     

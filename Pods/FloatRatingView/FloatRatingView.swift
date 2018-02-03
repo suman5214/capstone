@@ -88,7 +88,7 @@ open class FloatRatingView: UIView {
     /**
     Max rating value.
     */
-    @IBInspectable open var maxRating: Int = 5 {
+    @IBInspectable open var maxRating: Int = 3 {
         didSet {
             if maxRating != oldValue {
                 removeImageViews()

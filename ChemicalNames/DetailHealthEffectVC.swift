@@ -83,8 +83,15 @@ class DetailHealthEffectVC: UIViewController {
 extension DetailHealthEffectVC: UITableViewDataSource, UITableViewDelegate {
     
     func numberOfSections(in tableView: UITableView) -> Int {
-        return 2
-    }
+        var sections = 0
+        if acuteList.count != 0 {
+            sections += 1
+        }
+        if chronicList.count != 0 {
+            sections += 1
+        }
+        print(sections)
+        return sections    }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if section == 0 {

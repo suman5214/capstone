@@ -8,10 +8,18 @@
 
 import UIKit
 
+
 class DetailPPEVC: UIViewController {
     var chemical: Chemical!
 
     @IBOutlet var ppeLabel: UILabel!
+    @IBOutlet weak var ppeGoggle: UIButton!
+    @IBOutlet weak var ppeMask: UIButton!
+    @IBOutlet weak var ppeGlove: UIButton!
+    @IBOutlet weak var ppeRespiratory: UIButton!
+    @IBOutlet weak var ppeVest: UIButton!
+    @IBOutlet weak var ppeBoot: UIButton!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,11 +34,43 @@ class DetailPPEVC: UIViewController {
         var ppeStr = ""
         var prefix = ""
         for ppe in ppeList {
+            print(ppe)
+            if ppe.bodyPart == "Eye/face" {
+                ppeMask.isHidden = false
+                ppeMask.accessibilityLabel = ppe.name
+                ppeMask.accessibilityValue = ppe.material
+            }
+            if ppe.bodyPart == "Eyes" {
+                ppeGoggle.isHidden = false
+                ppeGoggle.accessibilityLabel = ppe.name
+                ppeGoggle.accessibilityValue = ppe.material
+            }
+
+            if ppe.bodyPart == "respiratory system" {
+                ppeRespiratory.isHidden = false
+                ppeRespiratory.accessibilityLabel = ppe.name
+                ppeRespiratory.accessibilityValue = ppe.material
+            }
+            if ppe.bodyPart == "Skin" {
+                ppeVest.isHidden = false
+                ppeVest.accessibilityLabel = ppe.name
+                ppeVest.accessibilityValue = ppe.material
+            }
+            if ppe.bodyPart == "Hand" {
+                ppeGlove.isHidden = false
+                ppeGlove.accessibilityLabel = ppe.name
+                ppeGlove.accessibilityValue = ppe.material
+            }
+            if ppe.bodyPart == "toes" {
+                ppeBoot.isHidden = false
+                ppeBoot.accessibilityLabel = ppe.name
+                ppeBoot.accessibilityValue = ppe.material
+            }
             ppeStr.append(prefix)
             ppeStr.append(ppe.bodyPart + " (" +  ppe.name + ")")
             prefix = "\n"
         }
-        self.ppeLabel.text = ppeStr
+        // self.ppeLabel.text = ppeStr
         // Do any additional setup after loading the view.
     }
 
@@ -40,7 +80,22 @@ class DetailPPEVC: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    func createMsg (title: String, message: String)
+    {
+        let alertController = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.alert)
+        
+        alertController.addAction(UIAlertAction(title: "ok", style: UIAlertActionStyle.default,handler: nil))
+        
+        self.present(alertController, animated: true, completion: nil)
+    }
+    
+    @IBAction func showPPEInfo(_ sender: UIButton) {
 
+        createMsg(title: "PPE Information" , message: "PPE Name: " + sender.accessibilityLabel! + "\nMaterial: " + sender.accessibilityValue! )
+        
+    }
+
+   
     /*
     // MARK: - Navigation
 
